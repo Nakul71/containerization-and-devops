@@ -16,7 +16,7 @@ Topics covered:
 - Basic Docker commands
 - Image and container lifecycle
 
-👉 [Open Class 1 Notes](Class-1/README.md)
+👉 [Open Class 1 Notes](Theory/Class1/README.md)
 
 
 
