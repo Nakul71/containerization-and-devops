@@ -1,4 +1,4 @@
-# 📘 Theory – Containerization and DevOps
+#  Theory – Containerization and DevOps
 
 This folder contains **class-wise theory notes** for the subject  
 **Containerization and DevOps**.
@@ -7,16 +7,16 @@ The notes include both **conceptual understanding** and **command-level explanat
 
 ---
 
-## 📚 Class-wise Notes
+##  Class-wise Notes
 
-### 📖 Class 1 – Docker Basics (Hands-on)
+###  Class 1 – Docker Basics (Hands-on)
 Topics covered:
 - Docker introduction
 - Docker architecture overview
 - Basic Docker commands
 - Image and container lifecycle
 
-👉 [Open Class 1 Notes](Class-1/README.md)
+ [Open Class 1 Notes](Theory/Class1/README.md)
 
 
 
