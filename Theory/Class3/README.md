@@ -1,4 +1,4 @@
-# Class 2 -- Docker Engine API Interaction via Unix Socket
+# Class 3 -- Docker Engine API Interaction via Unix Socket
 
 ## Objective
 
