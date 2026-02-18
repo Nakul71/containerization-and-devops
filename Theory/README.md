@@ -67,3 +67,33 @@ Topics covered:
 
 [Open Class 4 Notes](Class4/README.md)
 
+---
+
+### Class 5 – Docker Volumes and Bind Mounts (Hands-on)
+
+Topics covered:
+- Introduction to Docker data persistence
+- Creating and listing Docker volumes
+- Mounting named volumes inside containers
+- Data persistence after container removal
+- Bind mounts using host directories
+- Comparing bind mounts vs named volumes
+
+[Open Class 5 Notes](Class5/README.md)
+
+---
+
+### Class 6 – Docker Networking (Hands-on)
+
+Topics covered:
+- Default Docker networks (bridge, host, none)
+- Inspecting bridge network configuration
+- Creating custom bridge network
+- Running containers in custom networks
+- Container-to-container communication using ping
+- Host network mode
+- Checking open ports using `ss`
+
+[Open Class 6 Notes](Class6/README.md)
+
+---

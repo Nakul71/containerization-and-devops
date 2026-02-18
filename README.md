@@ -45,6 +45,10 @@ Direct link to Class 3: [Go to Class 3 Notes](Theory/Class3/README.md)
 
 Direct link to Class 4: [Go to Class 4 Notes](Theory/Class4/README.md)
 
+Direct link to Class 5: [Go to Class 5 Notes](Theory/Class5/README.md)
+
+Direct link to Class 6: [Go to Class 6 Notes](Theory/Class6/README.md)
+
 
 ------------------------------------------------------------------------
 
