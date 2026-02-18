@@ -33,7 +33,7 @@ Topics covered:
 - Inspecting image layers using `docker history`
 - Volume mounting for dynamic execution
 
-[Open Class 2 Notes](Class-2/README.md)
+[Open Class 2 Notes](Class2/README.md)
 
 ---
 
@@ -48,7 +48,7 @@ Topics covered:
 - Starting and stopping containers via API
 - Inspecting container metadata
 
-[Open Class 3 Notes](Class-3/README.md)
+[Open Class 3 Notes](Class3/README.md)
 
 ---
 
