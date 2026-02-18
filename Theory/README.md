@@ -49,3 +49,21 @@ Topics covered:
 - Inspecting container metadata
 
 [Open Class 3 Notes](Class-3/README.md)
+
+---
+
+### Class 4 – Multistage Docker Build (Hands-on)
+
+Topics covered:
+- Single-stage Docker build using Ubuntu and GCC
+- Building a C application inside a Docker container
+- Understanding Docker image layers
+- Introduction to Multistage builds
+- Using `AS builder` stage
+- Using `FROM scratch` for minimal images
+- Copying artifacts using `COPY --from=builder`
+- Comparing image sizes (Single vs Multistage)
+- Optimizing images for production environments
+
+[Open Class 4 Notes](Class4/README.md)
+
