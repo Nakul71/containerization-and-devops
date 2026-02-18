@@ -39,6 +39,13 @@ Link to theory index: [Go to Theory README](Theory/README.md)
 
 Direct link to Class 1: [Go to Class 1 Notes](Theory/Class1/README.md)
 
+Direct link to Class 2: [Go to Class 2 Notes](Theory/Class2/README.md)
+
+Direct link to Class 3: [Go to Class 3 Notes](Theory/Class3/README.md)
+
+Direct link to Class 4: [Go to Class 4 Notes](Theory/Class4/README.md)
+
+
 ------------------------------------------------------------------------
 
 ## Lab Experiments
