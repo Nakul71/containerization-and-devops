@@ -16,16 +16,20 @@ fundamentals
 
 ## Repository Structure
 
-    Containerization-DevOps/
-    │
-    ├── Theory/
-    │   ├── README.md
-    │   └── Class-1/
-    │       └── README.md
-    │
-    └── Lab/
-        └── Lab-1/
-            └── README.md
+  Containerization-DevOps/
+│
+├── Theory/
+│   ├── Class-1/
+│   ├── Class-2/
+│   ├── Class-3/
+│   ├── Class-4/
+│   ├── Class-5/
+│   └── Class-6/
+│
+└── Lab/
+    ├── Lab-1/
+    ├── Lab-2/
+    └── Lab-3/
 
 ------------------------------------------------------------------------
 
@@ -33,7 +37,7 @@ fundamentals
 
 This section contains class-wise theory notes.
 
-### Class 1 -- Docker Basics (Hands-on)
+### Class Work (Hands-on)
 
 Link to theory index: [Go to Theory README](Theory/README.md)
 
@@ -63,8 +67,6 @@ Lab documentation: [Go to Lab 1 README](Lab/Lab-1/README.md)
 
 Lab documentation: [Go to Lab 2 README](Lab/Lab2/README.md)
 
-Lab documentation: [Go to Lab 3 Part 1 README](Lab/Lab3/P1/README.md)
-
-[Go to Lab 3 Part 1 README](Lab/Lab3/P1/README.md)
+Lab documentation: [Go to Lab 3 Part 1 README](Lab/Lab3/P1/README.md) & [Go to Lab 3 Part 2 README](Lab/Lab3/Flask-container/README.md)
 
 
