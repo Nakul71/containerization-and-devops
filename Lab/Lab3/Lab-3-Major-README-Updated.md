@@ -16,6 +16,18 @@ This lab focused on:
 
 ------------------------------------------------------------------------
 
+# Detailed Implementation Files
+
+For complete step-by-step screenshots and commands, refer to:
+
+-   🔹 NGINX & Image Customization (Part 1):\
+    [View Part 1 README](./Part-1/README.md)
+
+-   🔹 Flask Application Containerization (Part 2):\
+    [View Flask Container README](./Flask-container/README.md)
+
+------------------------------------------------------------------------
+
 # Part A -- Working with Official NGINX Image
 
 In this section, we explored how Docker Hub provides ready-to-use
