@@ -20,10 +20,10 @@ This lab focused on:
 
 For complete step-by-step screenshots and commands, refer to:
 
--   🔹 NGINX & Image Customization (Part 1):\
+🔹 NGINX & Image Customization (Part 1):\
     [View Part 1 README](./Part-1/README.md)
 
--   🔹 Flask Application Containerization (Part 2):\
+🔹 Flask Application Containerization (Part 2):\
     [View Flask Container README](./Flask-container/README.md)
 
 ------------------------------------------------------------------------

@@ -3,9 +3,9 @@
 ## Objective
 
 This experiment demonstrates how to containerize a Python Flask web
-application.\
-The process includes writing a Dockerfile, building a container image,
-and mapping ports to access the application from a local browser.
+application. The process includes writing a Dockerfile, building a
+container image, and mapping ports to access the application from a
+local browser.
 
 ------------------------------------------------------------------------
 
@@ -14,8 +14,8 @@ and mapping ports to access the application from a local browser.
 The project directory **Flask-container** contains the following
 essential files:
 
--   app.py\
--   requirements.txt\
+-   app.py
+-   requirements.txt
 -   Dockerfile
 
 ------------------------------------------------------------------------
@@ -48,6 +48,12 @@ Screenshot of the Dockerfile configuration:
 
 ### Step 4: Build the Docker Image
 
+Command Used:
+
+``` bash
+docker build -t flask-container .
+```
+
 Screenshot of the Docker build process:
 
 ![Docker Build Screenshot](image4.png)
@@ -55,6 +61,15 @@ Screenshot of the Docker build process:
 ------------------------------------------------------------------------
 
 ### Step 5: Run the Docker Container
+
+Command Used:
+
+``` bash
+docker run -d -p 8080:5000 flask-container
+```
+
+Explanation: - 8080 → Host machine port\
+- 5000 → Flask app running inside container
 
 Screenshot of the docker run command:
 
@@ -64,6 +79,12 @@ Screenshot of the docker run command:
 
 ### Step 6: Verify the Running Container
 
+Command Used:
+
+``` bash
+docker ps
+```
+
 Screenshot of the docker ps output:
 
 ![Docker PS Screenshot](image6.png)
@@ -71,6 +92,12 @@ Screenshot of the docker ps output:
 ------------------------------------------------------------------------
 
 ### Step 7: Access the Web Application
+
+Open in browser:
+
+``` bash
+http://localhost:8080
+```
 
 Screenshot of the web application running in the browser:
 
@@ -80,15 +107,15 @@ Screenshot of the web application running in the browser:
 
 ## Result
 
-The Flask web application was successfully containerized and deployed.\
-The screenshots above demonstrate each step from writing the application
-code to running the container and accessing it via the browser.
+The Flask web application was successfully containerized and deployed.
+The Docker image was built successfully, the container ran without
+errors, and the application became accessible through the mapped host
+port.
 
 ------------------------------------------------------------------------
 
 ## Conclusion
 
 Docker simplifies the deployment process by bundling the application
-with its runtime environment.\
-This ensures consistent execution across different systems and
-eliminates environment-related issues.
+with its runtime environment. This ensures consistent execution across
+different systems and eliminates environment-related issues.
