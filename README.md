@@ -61,4 +61,10 @@ Containers using: - VirtualBox - Vagrant - Ubuntu - Docker - Nginx
 
 Lab documentation: [Go to Lab 1 README](Lab/Lab-1/README.md)
 
+Lab documentation: [Go to Lab 2 README](Lab/Lab2/README.md)
+
+Lab documentation: [Go to Lab 3 Part 1 README](Lab/Lab3/P1/README.md)
+
+[Go to Lab 3 Part 1 README](Lab/Lab3/P1/README.md)
+
 
