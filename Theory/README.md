@@ -1,4 +1,4 @@
-#  Theory – Containerization and DevOps
+#  Theory - Containerization and DevOps
 
 This folder contains **class-wise theory notes** for the subject  
 **Containerization and DevOps**.
@@ -9,19 +9,18 @@ The notes include both **conceptual understanding** and **command-level explanat
 
 ##  Class-wise Notes
 
-###  Class 1 – Docker Basics (Hands-on)
+###  Class 1 - Docker Basics (Hands-on)
 Topics covered:
 - Docker introduction
 - Docker architecture overview
 - Basic Docker commands
 - Image and container lifecycle
 
-
- [Open Class 1 Notes](Class1/README.md)
+[Open Class 1 Notes](Class1/README.md)
 
 ---
 
-### Class 2 – Application Containerization (Java & Python)
+### Class 2 - Application Containerization (Java & Python)
 
 Topics covered:
 - Writing Dockerfiles for different languages
@@ -37,7 +36,7 @@ Topics covered:
 
 ---
 
-### Class 3 – Docker Engine API via Unix Socket (Hands-on)
+### Class 3 - Docker Engine API via Unix Socket (Hands-on)
 
 Topics covered:
 - Docker daemon and REST API
@@ -52,7 +51,7 @@ Topics covered:
 
 ---
 
-### Class 4 – Multistage Docker Build (Hands-on)
+### Class 4 - Multistage Docker Build (Hands-on)
 
 Topics covered:
 - Single-stage Docker build using Ubuntu and GCC
@@ -69,7 +68,7 @@ Topics covered:
 
 ---
 
-### Class 5 – Docker Volumes and Bind Mounts (Hands-on)
+### Class 5 - Docker Volumes and Bind Mounts (Hands-on)
 
 Topics covered:
 - Introduction to Docker data persistence
@@ -83,7 +82,7 @@ Topics covered:
 
 ---
 
-### Class 6 – Docker Networking (Hands-on)
+### Class 6 - Docker Networking (Hands-on)
 
 Topics covered:
 - Default Docker networks (bridge, host, none)
@@ -97,3 +96,21 @@ Topics covered:
 [Open Class 6 Notes](Class6/README.md)
 
 ---
+
+### Class 7 - Docker Advanced Commands (Hands-on)
+
+[Open Class 7 Notes](Class7/README.md)
+
+---
+
+### Class 8 - Docker Compose (Hands-on)
+
+- [Open Class 8 Part 1 Notes](Class8/Part1/README_Class8_Docker_Compose_Lab.md)
+- [Open Class 8 Part 2 Notes](Class8/Part2/README.md)
+
+---
+
+### Class 9 - Docker Compose and Reverse Proxy (Hands-on)
+
+- [Open Class 9 Part 1 Notes](Class9/Part1/README.md)
+- [Open Class 9 Part 2 Notes](Class9/Part2/README.md)
