@@ -21,7 +21,7 @@ This lab focused on:
 For complete step-by-step screenshots and commands, refer to:
 
 🔹 NGINX & Image Customization (Part 1):\
-    [View Part 1 README](./Part-1/README.md)
+    [View Part 1 README](./P1/README.md)
 
 🔹 Flask Application Containerization (Part 2):\
     [View Flask Container README](./Flask-container/README.md)
@@ -171,3 +171,4 @@ consistency across development, testing, and production environments.
 The lab strengthened understanding of container-based architecture,
 efficient image building, application deployment strategies, and
 environment consistency using Docker.
+

@@ -99,18 +99,43 @@ Topics covered:
 
 ### Class 7 - Docker Advanced Commands (Hands-on)
 
+Topics covered:
+- Initializing Docker Swarm on multi-interface hosts
+- Using `--advertise-addr` to resolve swarm IP selection issues
+- Creating and testing attachable overlay networks
+- Running and verifying inter-container communication
+- Inspecting host routing configuration
+- Creating and using macvlan networks with static container IPs
+
 [Open Class 7 Notes](Class7/README.md)
 
 ---
 
 ### Class 8 - Docker Compose (Hands-on)
 
-- [Open Class 8 Part 1 Notes](Class8/Part1/README_Class8_Docker_Compose_Lab.md)
+Topics covered:
+- Writing and using `docker-compose.yml` for multi-container applications
+- Defining services, networks, volumes, and environment variables
+- Running Compose stacks in detached mode
+- Verifying container health and service startup
+- Deploying and accessing a WordPress + MySQL setup
+- Persisting database and application data with named volumes
+
+- [Open Class 8 Part 1 Notes](Class8/Part1/README.md)
 - [Open Class 8 Part 2 Notes](Class8/Part2/README.md)
 
 ---
 
 ### Class 9 - Docker Compose and Reverse Proxy (Hands-on)
 
+Topics covered:
+- Scaling services with `docker compose up -d --scale`
+- Handling port conflicts during horizontal scaling
+- Comparing internal-only scaling vs port-range exposure
+- Understanding `ports` vs `expose` in Compose
+- Configuring Nginx as a reverse proxy for scaled WordPress replicas
+- Implementing load-balanced, production-style multi-tier architecture
+
 - [Open Class 9 Part 1 Notes](Class9/Part1/README.md)
 - [Open Class 9 Part 2 Notes](Class9/Part2/README.md)
+
