@@ -6,7 +6,6 @@
 ## Objective
 To containerize a Python application using Docker, build images using different Dockerfiles, run containers interactively, and analyze image layers.
 
-```
 
 ## Step 1 – Python Application (app.py)
 

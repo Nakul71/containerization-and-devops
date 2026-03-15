@@ -71,9 +71,21 @@ docker images nginx
 
 ```bash
 
-![Ubuntu Dockerfile](5.png)
+FROM ubuntu:22.04
+
+RUN apt-get update && \
+    apt-get install -y nginx && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/*
+
+EXPOSE 80
+
+CMD ["nginx", "-g", "daemon off;"]
+
 
 ---
+```
+
 
 ## Step 6 – Build Ubuntu-based Image
 
