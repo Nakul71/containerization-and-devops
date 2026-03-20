@@ -9,6 +9,10 @@
 This repository contains theory notes and lab experiments for the subject **Containerization and DevOps**.
 It focuses on conceptual understanding and hands-on implementation.
 
+### Important Links
+- **GitHub Repository**: [Nakul71/containerization-and-devops](https://github.com/Nakul71/containerization-and-devops)
+- **GitHub Pages**: [https://nakul71.github.io/containerization-and-devops/](https://nakul71.github.io/containerization-and-devops/)
+
 Key areas covered:
 - Virtualization
 - Containerization
