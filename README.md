@@ -36,7 +36,8 @@ Containerization-DevOps/
     |-- Lab2/
     |-- Lab3/
     |-- Lab4/
-    `-- Lab5/
+    |-- Lab5/
+    `-- Lab6/
 ```
 
 ---
@@ -70,3 +71,4 @@ Direct links:
   - [Part 2 — Flask Container](Lab/Lab3/Flask-container/README.md)
 - [Lab 4 — Docker Essentials](Lab/Lab4/README.md)
 - [Lab 5 — Volumes, Env Vars, Monitoring, Networks](Lab/Lab5/README.md)
+- [Lab 6 — Docker Run vs Docker Compose](Lab/Lab6/README.md)

@@ -199,3 +199,4 @@ the page.
 - [Lab 3 — Docker Images, NGINX & Flask Deployment](../Lab3/README.md)
 - [Lab 4 — Docker Essentials](../Lab4/README.md)
 - [Lab 5 — Volumes, Env Vars, Monitoring, Networks](../Lab5/README.md)
+- [Lab 6 — Docker Run vs Docker Compose](../Lab6/README.md)

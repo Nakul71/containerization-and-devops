@@ -263,7 +263,7 @@ docker network prune -f
 
 | Previous | Home | Next |
 |----------|------|------|
-| [← Lab 4](../Lab4/README.md) | [Main README](../../README.md) | — |
+| [← Lab 4](../Lab4/README.md) | [Main README](../../README.md) | [Lab 6 →](../Lab6/README.md) |
 
 ### All Labs
 - [Lab 1 — VM vs Container Comparison](../Lab-1/README.md)
@@ -271,3 +271,4 @@ docker network prune -f
 - [Lab 3 — Docker Images, NGINX & Flask Deployment](../Lab3/README.md)
 - [Lab 4 — Docker Essentials](../Lab4/README.md)
 - **Lab 5 — Volumes, Env Vars, Monitoring, Networks** *(You are here)*
+- [Lab 6 — Docker Run vs Docker Compose](../Lab6/README.md)
