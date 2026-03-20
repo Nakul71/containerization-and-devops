@@ -157,3 +157,4 @@ Successfully compared VM and Container performance.
 - [Lab 2 — Docker Installation & GitHub Pages](../Lab2/README.md)
 - [Lab 3 — Docker Images, NGINX & Flask Deployment](../Lab3/README.md)
 - [Lab 4 — Docker Essentials](../Lab4/README.md)
+- [Lab 5 — Volumes, Env Vars, Monitoring, Networks](../Lab5/README.md)

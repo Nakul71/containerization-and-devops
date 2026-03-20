@@ -198,3 +198,4 @@ the page.
 - **Lab 2 — Docker Installation & GitHub Pages** *(You are here)*
 - [Lab 3 — Docker Images, NGINX & Flask Deployment](../Lab3/README.md)
 - [Lab 4 — Docker Essentials](../Lab4/README.md)
+- [Lab 5 — Volumes, Env Vars, Monitoring, Networks](../Lab5/README.md)

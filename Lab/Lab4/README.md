@@ -372,11 +372,12 @@ docker system prune -a
 
 | Previous | Home | Next |
 |----------|------|------|
-| [← Lab 3](../Lab3/README.md) | [Main README](../../README.md) | — |
+| [← Lab 3](../Lab3/README.md) | [Main README](../../README.md) | [Lab 5 →](../Lab5/README.md) |
 
 ### All Labs
 - [Lab 1 — VM vs Container Comparison](../Lab-1/README.md)
 - [Lab 2 — Docker Installation & GitHub Pages](../Lab2/README.md)
 - [Lab 3 — Docker Images, NGINX & Flask Deployment](../Lab3/README.md)
 - **Lab 4 — Docker Essentials** *(You are here)*
+- [Lab 5 — Volumes, Env Vars, Monitoring, Networks](../Lab5/README.md)
 

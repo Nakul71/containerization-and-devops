@@ -35,7 +35,8 @@ Containerization-DevOps/
     |-- Lab-1/
     |-- Lab2/
     |-- Lab3/
-    `-- Lab4/
+    |-- Lab4/
+    `-- Lab5/
 ```
 
 ---
@@ -68,3 +69,4 @@ Direct links:
   - [Part 1 — NGINX & Image Customization](Lab/Lab3/P1/README.md)
   - [Part 2 — Flask Container](Lab/Lab3/Flask-container/README.md)
 - [Lab 4 — Docker Essentials](Lab/Lab4/README.md)
+- [Lab 5 — Volumes, Env Vars, Monitoring, Networks](Lab/Lab5/README.md)
