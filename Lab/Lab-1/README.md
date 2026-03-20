@@ -143,3 +143,17 @@ docker stats
 ## Result
 
 Successfully compared VM and Container performance.
+
+---
+
+## 🔗 Navigation
+
+| Previous | Home | Next |
+|----------|------|------|
+| — | [Main README](../../README.md) | [Lab 2 →](../Lab2/README.md) |
+
+### All Labs
+- **Lab 1 — VM vs Container Comparison** *(You are here)*
+- [Lab 2 — Docker Installation & GitHub Pages](../Lab2/README.md)
+- [Lab 3 — Docker Images, NGINX & Flask Deployment](../Lab3/README.md)
+- [Lab 4 — Docker Essentials](../Lab4/README.md)

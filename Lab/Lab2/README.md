@@ -184,3 +184,17 @@ the page.
 ## Screenshot (Example)
 
 ![My site live](1.png)
+
+---
+
+## 🔗 Navigation
+
+| Previous | Home | Next |
+|----------|------|------|
+| [← Lab 1](../Lab-1/README.md) | [Main README](../../README.md) | [Lab 3 →](../Lab3/README.md) |
+
+### All Labs
+- [Lab 1 — VM vs Container Comparison](../Lab-1/README.md)
+- **Lab 2 — Docker Installation & GitHub Pages** *(You are here)*
+- [Lab 3 — Docker Images, NGINX & Flask Deployment](../Lab3/README.md)
+- [Lab 4 — Docker Essentials](../Lab4/README.md)

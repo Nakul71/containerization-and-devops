@@ -172,3 +172,17 @@ The lab strengthened understanding of container-based architecture,
 efficient image building, application deployment strategies, and
 environment consistency using Docker.
 
+---
+
+## 🔗 Navigation
+
+| Previous | Home | Next |
+|----------|------|------|
+| [← Lab 2](../Lab2/README.md) | [Main README](../../README.md) | [Lab 4 →](../Lab4/README.md) |
+
+### All Labs
+- [Lab 1 — VM vs Container Comparison](../Lab-1/README.md)
+- [Lab 2 — Docker Installation & GitHub Pages](../Lab2/README.md)
+- **Lab 3 — Docker Images, NGINX & Flask Deployment** *(You are here)*
+- [Lab 4 — Docker Essentials](../Lab4/README.md)
+

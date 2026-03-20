@@ -34,7 +34,8 @@ Containerization-DevOps/
 `-- Lab/
     |-- Lab-1/
     |-- Lab2/
-    `-- Lab3/
+    |-- Lab3/
+    `-- Lab4/
 ```
 
 ---
@@ -61,7 +62,9 @@ Direct links:
 
 ## Lab Experiments
 
-- [Go to Lab 1 README](Lab/Lab-1/README.md)
-- [Go to Lab 2 README](Lab/Lab2/README.md)
-- [Go to Lab 3 Part 1 README](Lab/Lab3/P1/README.md)
-- [Go to Lab 3 Part 2 README](Lab/Lab3/Flask-container/README.md)
+- [Lab 1 — VM vs Container Comparison](Lab/Lab-1/README.md)
+- [Lab 2 — Docker Installation & GitHub Pages](Lab/Lab2/README.md)
+- [Lab 3 — Docker Images, NGINX & Flask Deployment](Lab/Lab3/README.md)
+  - [Part 1 — NGINX & Image Customization](Lab/Lab3/P1/README.md)
+  - [Part 2 — Flask Container](Lab/Lab3/Flask-container/README.md)
+- [Lab 4 — Docker Essentials](Lab/Lab4/README.md)

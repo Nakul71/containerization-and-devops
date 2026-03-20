@@ -365,3 +365,18 @@ docker system prune -a
 5. **Docker Hub** enables sharing and distributing images
 6. **Always test locally** before pushing to production
 7. **Cleanup regularly** using `docker system prune` to reclaim disk space
+
+---
+
+## 🔗 Navigation
+
+| Previous | Home | Next |
+|----------|------|------|
+| [← Lab 3](../Lab3/README.md) | [Main README](../../README.md) | — |
+
+### All Labs
+- [Lab 1 — VM vs Container Comparison](../Lab-1/README.md)
+- [Lab 2 — Docker Installation & GitHub Pages](../Lab2/README.md)
+- [Lab 3 — Docker Images, NGINX & Flask Deployment](../Lab3/README.md)
+- **Lab 4 — Docker Essentials** *(You are here)*
+
