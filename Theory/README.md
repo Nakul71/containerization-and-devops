@@ -139,3 +139,16 @@ Topics covered:
 - [Open Class 9 Part 1 Notes](Class9/Part1/README.md)
 - [Open Class 9 Part 2 Notes](Class9/Part2/README.md)
 
+---
+
+### Class 10 - Docker GUI Management with Portainer (Hands-on)
+
+Topics covered:
+- Creating volumes for persistent data
+- Installing Portainer using Docker CLI
+- Mapping ports and mounting the Docker socket
+- Accessing Portainer Web UI
+- Setting up the initial administrator account
+- Navigating the local Docker environment dashboard
+
+[Open Class 10 Notes](Class10/README.md)

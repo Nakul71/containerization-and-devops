@@ -63,6 +63,7 @@ Direct links:
 - [Go to Class 8 Part 2 Notes](Theory/Class8/Part2/README.md)
 - [Go to Class 9 Part 1 Notes](Theory/Class9/Part1/README.md)
 - [Go to Class 9 Part 2 Notes](Theory/Class9/Part2/README.md)
+- [Go to Class 10 Notes](Theory/Class10/README.md)
 
 ---
 
