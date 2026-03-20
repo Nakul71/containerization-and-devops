@@ -1,4 +1,4 @@
-# Class 2 – Python Docker Application
+# Class 2 - Python Docker Application
 ## Subfolder: python-docker
 
 ---
@@ -133,3 +133,5 @@ Successfully:
 - Analyzed image layers using docker history
 - Demonstrated volume mounting
 
+---
+[<- Back to Class 2 Main](../README.md) | [Theory Index](../../README.md)

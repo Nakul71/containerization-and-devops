@@ -1,4 +1,4 @@
-#  Class 5 -- Docker Volumes and Bind Mounts (Hands-on)
+# Class 5 - Docker Volumes and Bind Mounts (Hands-on)
 
 ##  Objective
 
@@ -153,3 +153,6 @@ Data persisted across multiple container executions.
 - Verified persistent storage in Docker
 - Observed data sharing between container and host
 - Learned practical data management techniques in Docker
+
+---
+[- Previous Class](../Class4/README.md) | [Theory Index](../README.md) | [Next Class ->](../Class6/README.md)

@@ -1,4 +1,4 @@
-# Docker Compose Lab -- Class 8 (Part 2)
+# Class 8 Part 2 - WordPress & MySQL with Compose
 
 ## docker-compose.yml
 
@@ -89,3 +89,6 @@ http://localhost:8080/wp-admin/install.php
 -   Configured environment variables for DB connection\
 -   Used volumes for persistent storage\
 -   Successfully accessed WordPress setup page
+
+---
+[<- Previous Class](../../Class8/Part1/README.md) | [Theory Index](../../README.md) | [Next Class ->](../../Class9/Part1/README.md)

@@ -1,4 +1,4 @@
-# Class 6 -- Docker Networking (Hands-on)
+# Class 6 - Docker Networking (Hands-on)
 
 ## Objective
 
@@ -118,3 +118,6 @@ ss -tulnp | grep 80
 ![Check Port 80](image8.png)
 
 ------------------------------------------------------------------------
+
+---
+[- Previous Class](../Class5/README.md) | [Theory Index](../README.md) | [Next Class ->](../Class7/README.md)

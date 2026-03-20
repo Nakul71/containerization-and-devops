@@ -1,4 +1,4 @@
-# Class 7 -- Docker Swarm, Overlay, and Macvlan Networking (Hands-on)
+# Class 7 - Docker Swarm, Overlay, and Macvlan Networking (Hands-on)
 
 ## Objective
 
@@ -158,3 +158,6 @@ Docker Swarm was successfully initialized using an explicit advertise address. O
 - Practiced creating and using attachable overlay networks
 - Verified inter-container communication in swarm networking context
 - Created a macvlan network and assigned a static IP to a container
+
+---
+[- Previous Class](../Class6/README.md) | [Theory Index](../README.md) | [Next Class ->](../Class8/Part1/README.md)

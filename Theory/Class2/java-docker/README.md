@@ -1,4 +1,4 @@
-# Class 2 – Java Docker Application
+# Class 2 - Java Docker Application
 ## Subfolder: java-docker
 
 ---
@@ -149,3 +149,6 @@ Successfully:
 - Ran container
 - Tagged image
 - Pushed image to Docker Hub
+
+---
+[<- Back to Class 2 Main](../README.md) | [Theory Index](../../README.md)

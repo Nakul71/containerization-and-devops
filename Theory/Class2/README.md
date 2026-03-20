@@ -1,4 +1,4 @@
-# Class 2 – Docker Hands-on Projects
+# Class 2 - Docker Hands-on Projects
 
 This class focuses on practical implementation of Docker using real-world programming examples.
 
@@ -70,3 +70,6 @@ After completing Class 2, we are able to:
 - Use volume mounting for dynamic execution
 
 ---
+
+---
+[- Previous Class](../Class1/README.md) | [Theory Index](../README.md) | [Next Class ->](../Class3/README.md)

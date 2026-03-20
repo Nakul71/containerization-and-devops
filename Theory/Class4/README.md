@@ -1,4 +1,4 @@
-# Class 4 -- Multistage Docker Build (Hands-on)
+# Class 4 - Multistage Docker Build (Hands-on)
 
 ## Objective
 
@@ -133,3 +133,6 @@ compiled binary into a minimal scratch image.
 -   Learned the concept of build stage and final stage
 -   Compared image sizes practically
 -   Learned how Multistage builds optimize production images
+
+---
+[- Previous Class](../Class3/README.md) | [Theory Index](../README.md) | [Next Class ->](../Class5/README.md)

@@ -1,4 +1,4 @@
-# Class 3 -- Docker Engine API Interaction via Unix Socket
+# Class 3 - Docker Engine API Interaction via Unix Socket
 
 ## Objective
 
@@ -201,3 +201,6 @@ All operations were executed using HTTP requests over the Unix socket.
     `/var/run/docker.sock`.
 -   Full container lifecycle management can be performed using HTTP
     requests.
+
+---
+[- Previous Class](../Class2/README.md) | [Theory Index](../README.md) | [Next Class ->](../Class4/README.md)

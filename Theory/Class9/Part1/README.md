@@ -1,4 +1,4 @@
-# Docker Compose Scaling -- Class 9
+# Class 9 Part 1 - Docker Compose Scaling
 
 ## Objective
 
@@ -153,3 +153,6 @@ The experiment successfully demonstrated two methods of scaling
 WordPress containers using Docker Compose. Both approaches highlight
 important differences in how Docker handles port binding and service
 replication.
+
+---
+[<- Previous Class](../../Class8/Part2/README.md) | [Theory Index](../../README.md) | [Next Class ->](../../Class9/Part2/README.md)

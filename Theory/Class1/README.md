@@ -1,4 +1,4 @@
-#  Class 1 -- Docker Basics (Hands-on)
+# Class 1 - Docker Basics (Hands-on)
 
 ##  Objective
 
@@ -121,4 +121,5 @@ created, executed, exited, and inspected using Docker CLI commands.
 -   Observed container lifecycle using `docker ps` and `docker ps -a`
 -   Gained hands-on experience with Docker in WSL environment
 
-
+---
+[Theory Index](../README.md) | [Next Class ->](../Class2/README.md)

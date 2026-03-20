@@ -1,4 +1,4 @@
-# Docker Compose Lab -- Class 8
+# Class 8 Part 1 - Docker Compose Lab
 
 ## docker-compose.yml
 
@@ -143,3 +143,6 @@ docker compose ps
 
 
 ------------------------------------------------------------------------
+
+---
+[<- Previous Class](../../Class7/README.md) | [Theory Index](../../README.md) | [Next Class ->](../../Class8/Part2/README.md)

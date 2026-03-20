@@ -1,4 +1,4 @@
-# Docker Compose Scaling with Nginx Reverse Proxy -- Class 9 Part 2
+# Class 9 Part 2 - Reverse Proxy with Nginx
 
 ## Objective
 
@@ -153,3 +153,6 @@ This experiment successfully demonstrated:
 The system now follows a scalable multi-container design where only
 Nginx is publicly exposed and WordPress replicas are internally load
 balanced.
+
+---
+[<- Previous Class](../../Class9/Part1/README.md) | [Theory Index](../../README.md) | [Next Class ->](../../Class10/README.md)
