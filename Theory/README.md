@@ -152,3 +152,19 @@ Topics covered:
 - Navigating the local Docker environment dashboard
 
 [Open Class 10 Notes](Class10/README.md)
+
+---
+
+### Class 11 - Introduction to Kubernetes & Local Setup (Hands-on)
+
+Topics covered:
+- Why Kubernetes is needed for container orchestration
+- Core Kubernetes architecture (Control Plane, Worker Nodes)
+- Comparing local Kubernetes tools (Minikube, k3s, k3d, kind)
+- Installing kubectl and k3d on WSL
+- Creating a local cluster with k3d
+- Running Pods, Deployments, and Services
+- Scaling and exposing applications
+- Understanding kubeconfig structure and contexts
+
+[Open Class 11 Notes](Class11/README.md)
