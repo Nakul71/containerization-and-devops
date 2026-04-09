@@ -168,3 +168,42 @@ Topics covered:
 - Understanding kubeconfig structure and contexts
 
 [Open Class 11 Notes](Class11/README.md)
+
+---
+
+### Class 12 - Kubernetes Review & Basics (Hands-on)
+
+Topics covered:
+- Kubernetes architecture (Control Plane & Worker Nodes)
+- Local Kubernetes tools (k3d, Minikube, kind)
+- Installing and configuring kubectl and k3d
+- Basic kubectl commands (get, describe, logs, run)
+- Deploying, scaling, and exposing applications
+
+[Open Class 12 Notes](Class12/README.md)
+
+---
+
+### Class 13 - Apache Web App Deployment & Debugging (Hands-on)
+
+Topics covered:
+- Deploying Apache (httpd) as a Pod and Deployment
+- Port forwarding for local access
+- Scaling deployments for high availability
+- Debugging common issues (ImagePullBackOff)
+- Self-healing properties of Kubernetes
+
+[Open Class 13 Notes](Class13/README.md)
+
+---
+
+### Class 14 - Git Basics (Hands-on)
+
+Topics covered:
+- Initializing Git repositories
+- Staging and committing changes
+- Viewing history with logs and graphs
+- Branching, switching, and merging
+- Understanding detached HEAD state
+
+[Open Class 14 Notes](Class14/README.md)
