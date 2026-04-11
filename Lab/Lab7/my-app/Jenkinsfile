@@ -9,20 +9,21 @@ pipeline {
     stages {
         stage('Clone Source') {
             steps {
-                git branch: 'main', url: 'https://github.com/Nakul71/containerization-and-devops.git'
+                git 'https://github.com/Nakul71/containerization-and-devops.git'
             }
+            
         }
 
         stage('Build Docker Image') {
             steps {
-                sh 'docker build -t $IMAGE_NAME:latest $DOCKERFILE_PATH'
+                sh 'docker build -t $IMAGE_NAME:latest .'
             }
         }
 
         stage('Login to Docker Hub') {
             steps {
                 withCredentials([string(credentialsId: 'dockerhub-token', variable: 'DOCKER_TOKEN')]) {
-                    sh 'echo $DOCKER_TOKEN | docker login -u nakul71 --password-stdin'
+                    sh 'echo $DOCKER_TOKEN | docker login -u your-dockerhub-username --password-stdin'
                 }
             }
         }
