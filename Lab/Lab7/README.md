@@ -3,6 +3,7 @@
 ## 1. Aim
 
 To build a complete CI/CD pipeline using:
+
 - **GitHub** — Source code repository
 - **Jenkins** — Automation server
 - **Docker Hub** — Container image storage
@@ -22,12 +23,15 @@ To build a complete CI/CD pipeline using:
 ## 3. What is CI/CD?
 
 ### CI – Continuous Integration
+
 Code is automatically built and tested after every commit pushed to GitHub.
 
 ### CD – Continuous Deployment
+
 The tested application is automatically packaged and deployed without manual steps.
 
 ### Flow Diagram
+
 ```
 Developer → GitHub → Webhook → Jenkins → Docker Hub
 ```
@@ -37,17 +41,19 @@ Developer → GitHub → Webhook → Jenkins → Docker Hub
 ## 4. What is Jenkins?
 
 Jenkins is a **GUI-based open-source automation server** that enables:
+
 - **Building** applications
 - **Testing** code automatically
 - **Deploying** to target environments
 
 ### Key Features
-| Feature | Description |
-|---------|-------------|
-| Web Dashboard | Visual interface to manage jobs and pipelines |
-| Plugin Support | 1800+ plugins for every major tool |
+
+| Feature          | Description                                    |
+| ---------------- | ---------------------------------------------- |
+| Web Dashboard    | Visual interface to manage jobs and pipelines  |
+| Plugin Support   | 1800+ plugins for every major tool             |
 | Pipeline as Code | Define your full CI/CD flow in a `Jenkinsfile` |
-| Credential Store | Securely handles secrets and tokens |
+| Credential Store | Securely handles secrets and tokens            |
 
 ---
 
@@ -66,6 +72,7 @@ my-app/
 ## 6. Application Code (Flask)
 
 **app.py**
+
 ```python
 from flask import Flask
 app = Flask(__name__)
@@ -78,6 +85,7 @@ app.run(host="0.0.0.0", port=80)
 ```
 
 **requirements.txt**
+
 ```
 flask
 ```
@@ -141,12 +149,12 @@ pipeline {
 
 ### Pipeline Stages Explained
 
-| Stage | What It Does |
-|-------|-------------|
-| `Clone Source` | Pulls the latest code from GitHub |
-| `Build Docker Image` | Runs `docker build` to create the image |
+| Stage                 | What It Does                                |
+| --------------------- | ------------------------------------------- |
+| `Clone Source`        | Pulls the latest code from GitHub           |
+| `Build Docker Image`  | Runs `docker build` to create the image     |
 | `Login to Docker Hub` | Authenticates using stored token credential |
-| `Push to Docker Hub` | Uploads the built image to Docker Hub |
+| `Push to Docker Hub`  | Uploads the built image to Docker Hub       |
 
 ---
 
@@ -155,8 +163,9 @@ pipeline {
 We run Jenkins itself as a Docker container for easy setup.
 
 **docker-compose.yml**
+
 ```yaml
-version: '3.8'
+version: "3.8"
 services:
   jenkins:
     image: jenkins/jenkins:lts
@@ -177,6 +186,7 @@ volumes:
 > This allows Jenkins (running inside a container) to communicate with the host Docker daemon — so it can build and push images directly from within the pipeline.
 
 ### Starting Jenkins
+
 ```bash
 docker compose up -d
 ```
@@ -190,14 +200,17 @@ Then open: **http://localhost:8080**
 ### Step 1 – Add Docker Hub Credentials
 
 Navigate to:
+
 ```
 Manage Jenkins → Credentials → System → Global credentials → Add Credentials
 ```
+
 - **Kind:** Secret text
 - **ID:** `dockerhub-token`
 - **Secret:** Your Docker Hub access token
 
 ### Step 2 – Create a Pipeline Job
+
 1. Click **New Item**
 2. Select **Pipeline**
 3. Under **Pipeline Definition**, select `Pipeline script from SCM`
@@ -209,6 +222,7 @@ Manage Jenkins → Credentials → System → Global credentials → Add Credent
 ## 11. Webhook Integration
 
 ### In GitHub
+
 1. Go to your repo → **Settings → Webhooks → Add webhook**
 2. Set the Payload URL to:
    ```
@@ -242,9 +256,11 @@ Step 4: Image is now live on Docker Hub
 ## 13. Key Concept: `withCredentials`
 
 ### Problem
+
 Hardcoding passwords in `Jenkinsfile` exposes secrets in version control.
 
 ### Solution
+
 ```groovy
 withCredentials([string(credentialsId: 'dockerhub-token', variable: 'DOCKER_TOKEN')]) {
     sh 'echo $DOCKER_TOKEN | docker login -u your-dockerhub-username --password-stdin'
@@ -252,6 +268,7 @@ withCredentials([string(credentialsId: 'dockerhub-token', variable: 'DOCKER_TOKE
 ```
 
 Jenkins:
+
 - Fetches the secret from the encrypted credentials store
 - Injects it as an environment variable **temporarily**
 - Automatically masks it from all logs
@@ -261,13 +278,13 @@ Jenkins:
 
 ## 14. Key Commands in Pipeline
 
-| Command | Purpose |
-|---------|---------|
-| `git` | Clone the source code repository |
-| `sh` | Execute a shell command on the agent |
+| Command        | Purpose                                    |
+| -------------- | ------------------------------------------ |
+| `git`          | Clone the source code repository           |
+| `sh`           | Execute a shell command on the agent       |
 | `docker build` | Build a Docker image from the `Dockerfile` |
-| `docker login` | Authenticate with Docker Hub |
-| `docker push` | Upload the image to Docker Hub |
+| `docker login` | Authenticate with Docker Hub               |
+| `docker push`  | Upload the image to Docker Hub             |
 
 ---
 
@@ -276,21 +293,27 @@ Jenkins:
 The following screenshots document the complete setup and execution of this CI/CD pipeline.
 
 ### Jenkins Running via Docker Compose
+
 ![Jenkins Docker Compose Up](screenshots/1.png)
 
 ### Jenkins Initial Setup & Dashboard
+
 ![Jenkins Dashboard](screenshots/2.png)
 
 ### Adding Docker Hub Credentials in Jenkins
+
 ![Jenkins Credentials](screenshots/3.png)
 
 ### Pipeline Job Configuration
+
 ![Pipeline Job Setup](screenshots/4.png)
 
 ### Pipeline Build Execution
+
 ![Pipeline Running](screenshots/5.png)
 
 ### Image Successfully Pushed to Docker Hub
+
 ![Docker Hub Image](screenshots/6.png)
 
 ---
@@ -299,12 +322,12 @@ The following screenshots document the complete setup and execution of this CI/C
 
 Successfully created a complete automated CI/CD pipeline:
 
-| Component | Role |
-|-----------|------|
-| **GitHub** | Stores source code, triggers webhook on push |
-| **Jenkins** | Automates build, login, and push stages |
-| **Docker** | Provides consistent build environment |
-| **Docker Hub** | Stores and distributes the built image |
+| Component      | Role                                         |
+| -------------- | -------------------------------------------- |
+| **GitHub**     | Stores source code, triggers webhook on push |
+| **Jenkins**    | Automates build, login, and push stages      |
+| **Docker**     | Provides consistent build environment        |
+| **Docker Hub** | Stores and distributes the built image       |
 
 Every `git push` now **automatically** results in a new Docker image on Docker Hub — with **zero manual steps**.
 
@@ -322,15 +345,16 @@ Every `git push` now **automatically** results in a new Docker image on Docker H
 
 ## 🔗 Navigation
 
-| Previous | Home | Next |
-|----------|------|------|
-| [← Lab 6](../Lab6/README.md) | [Main README](../../README.md) | — |
+| Previous                     | Home                           | Next |
+| ---------------------------- | ------------------------------ | ---- |
+| [← Lab 6](../Lab6/README.md) | [Main README](../../README.md) | —    |
 
 ### All Labs
+
 - [Lab 1 — VM vs Container Comparison](../Lab-1/README.md)
 - [Lab 2 — Docker Installation & GitHub Pages](../Lab2/README.md)
 - [Lab 3 — Docker Images, NGINX & Flask Deployment](../Lab3/README.md)
 - [Lab 4 — Docker Essentials](../Lab4/README.md)
 - [Lab 5 — Volumes, Env Vars, Monitoring, Networks](../Lab5/README.md)
 - [Lab 6 — Docker Run vs Docker Compose](../Lab6/README.md)
-- **Lab 7 — CI/CD using Jenkins, GitHub & Docker Hub** *(You are here)*
+- **Lab 7 — CI/CD using Jenkins, GitHub & Docker Hub** _(You are here)_

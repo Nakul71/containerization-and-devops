@@ -10,10 +10,12 @@ This repository contains theory notes and lab experiments for the subject **Cont
 It focuses on conceptual understanding and hands-on implementation.
 
 ### Important Links
+
 - **GitHub Repository**: [Nakul71/containerization-and-devops](https://github.com/Nakul71/containerization-and-devops)
 - **GitHub Pages**: [https://nakul71.github.io/containerization-and-devops/](https://nakul71.github.io/containerization-and-devops/)
 
 Key areas covered:
+
 - Virtualization
 - Containerization
 - Docker
@@ -50,9 +52,11 @@ Containerization-DevOps/
 ## Theory Section
 
 Link to theory index:
+
 - [Go to Theory README](Theory/README.md)
 
 Direct links:
+
 - [Go to Class 1 Notes](Theory/Class1/README.md)
 - [Go to Class 2 Notes](Theory/Class2/README.md)
 - [Go to Class 3 Notes](Theory/Class3/README.md)
