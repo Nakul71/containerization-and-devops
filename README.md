@@ -41,7 +41,8 @@ Containerization-DevOps/
     |-- Lab3/
     |-- Lab4/
     |-- Lab5/
-    `-- Lab6/
+    |-- Lab6/
+    `-- Lab7/
 ```
 
 ---
@@ -77,3 +78,4 @@ Direct links:
 - [Lab 4 — Docker Essentials](Lab/Lab4/README.md)
 - [Lab 5 — Volumes, Env Vars, Monitoring, Networks](Lab/Lab5/README.md)
 - [Lab 6 — Docker Run vs Docker Compose](Lab/Lab6/README.md)
+- [Lab 7 — CI/CD using Jenkins, GitHub & Docker Hub](Lab/Lab7/README.md)

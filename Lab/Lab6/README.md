@@ -274,7 +274,7 @@ docker compose up --scale wordpress=3
 
 | Previous | Home | Next |
 |----------|------|------|
-| [← Lab 5](../Lab5/README.md) | [Main README](../../README.md) | — |
+| [← Lab 5](../Lab5/README.md) | [Main README](../../README.md) | [Lab 7 →](../Lab7/README.md) |
 
 ### All Labs
 - [Lab 1 — VM vs Container Comparison](../Lab-1/README.md)
@@ -283,3 +283,4 @@ docker compose up --scale wordpress=3
 - [Lab 4 — Docker Essentials](../Lab4/README.md)
 - [Lab 5 — Volumes, Env Vars, Monitoring, Networks](../Lab5/README.md)
 - **Lab 6 — Docker Run vs Docker Compose** *(You are here)*
+- [Lab 7 — CI/CD using Jenkins, GitHub & Docker Hub](../Lab7/README.md)
