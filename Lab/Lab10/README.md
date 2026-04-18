@@ -70,7 +70,7 @@ docker logs -f sonarqube
 Open: http://localhost:9000
 
 ### Terminal Output
-![SonarQube Startup](Screenshots/1.png)
+![SonarQube Startup](Screenshots/1.1.png)
 
 ---
 
@@ -87,7 +87,7 @@ docker run -e SONAR_HOST_URL="http://localhost:9000" -e SONAR_LOGIN="YOUR_TOKEN"
 ```
 
 ### Terminal Output
-![Run Scanner](Screenshots/2.png)
+![Run Scanner](Screenshots/1.2.png)
 
 ---
 
@@ -118,20 +118,19 @@ curl -u admin:YOUR_TOKEN "http://localhost:9000/api/issues/search"
 ---
 
 ### Step 5: Jenkins Pipeline Integration
-**Pipeline Flow:** Checkout → Scan → Quality Gate → Build → Deploy
+**Pipeline Flow:** Checkout → Scan → Build → Deploy
 
-Update your `Jenkinsfile` from Lab 7 to include the SonarQube steps! If the Quality Gate fails → the pipeline stops.
+We updated the `Jenkinsfile` from **Lab 7** to include a new stage for SonarQube. This ties both labs together! 
 
-**Important Code Snippet for Jenkinsfile:**
+**Important Code Snippet added to Lab 7 Jenkinsfile:**
 ```groovy
-withSonarQubeEnv('SonarQube') {
-   sh 'mvn clean verify sonar:sonar'
-}
-
-// Quality Gate checks
-waitForQualityGate abortPipeline: true
+        stage('SonarQube Analysis') {
+            steps {
+                sh 'docker run --rm -v "${WORKSPACE}:/usr/src" sonarsource/sonar-scanner-cli -D"sonar.projectKey=Angel0606" -D"sonar.sources=." -D"sonar.host.url=http://host.docker.internal:9000" -D"sonar.login=sqp_ce674dd3b90e9f769eb1a806a73f1fb65a2f109c"'
+            }
+        }
 ```
-👉 Stops deployment if code is bad.
+👉 Jenkins intercepts the code, executes the scanner locally, and visually displays whether the code allowed the pipeline to proceed to Docker Hub!
 
 ### Terminal Output
 ![Jenkins Quality Gate Failure](Screenshots/5.png)
