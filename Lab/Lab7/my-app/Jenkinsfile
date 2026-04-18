@@ -14,6 +14,13 @@ pipeline {
             
         }
 
+        stage('SonarQube Analysis') {
+            steps {
+                sh 'docker run --rm -v "${WORKSPACE}:/usr/src" sonarsource/sonar-scanner-cli -D"sonar.projectKey=Angel0606" -D"sonar.sources=." -D"sonar.host.url=http://host.docker.internal:9000" -D"sonar.login=sqp_ce674dd3b90e9f769eb1a806a73f1fb65a2f109c"'
+            }
+        }
+
+
         stage('Build Docker Image') {
             steps {
                 sh 'docker build -t $IMAGE_NAME:latest .'
