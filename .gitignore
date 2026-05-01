@@ -2,6 +2,7 @@
 makepdf.sh
 makepdf_interactive.sh
 no-images.lua
+fix-links.lua
 
 # Generated output
 *.pdf
