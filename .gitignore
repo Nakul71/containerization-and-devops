@@ -1,0 +1,8 @@
+# PDF generation scripts — local use only, not for GitHub
+makepdf.sh
+makepdf_interactive.sh
+no-images.lua
+
+# Generated output
+*.pdf
+pdf_media/
