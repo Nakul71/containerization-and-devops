@@ -19,7 +19,10 @@ Key areas covered:
 - Virtualization
 - Containerization
 - Docker
-- DevOps fundamentals
+- Kubernetes
+- CI/CD with Jenkins
+- Configuration Management with Ansible
+- Code Quality with SonarQube
 
 ---
 
@@ -28,15 +31,7 @@ Key areas covered:
 ```text
 Containerization-DevOps/
 |-- Theory/
-|   |-- Class1/
-|   |-- Class2/
-|   |-- Class3/
-|   |-- Class4/
-|   |-- Class5/
-|   |-- Class6/
-|   |-- Class7/
-|   |-- Class8/
-|   `-- Class9/
+|   |-- Class1/ ... Class14/
 `-- Lab/
     |-- Lab-1/
     |-- Lab2/
@@ -44,7 +39,9 @@ Containerization-DevOps/
     |-- Lab4/
     |-- Lab5/
     |-- Lab6/
-    `-- Lab7/
+    |-- Lab7/
+    |-- Lab9/
+    `-- Lab10/
 ```
 
 ---
@@ -57,18 +54,22 @@ Link to theory index:
 
 Direct links:
 
-- [Go to Class 1 Notes](Theory/Class1/README.md)
-- [Go to Class 2 Notes](Theory/Class2/README.md)
-- [Go to Class 3 Notes](Theory/Class3/README.md)
-- [Go to Class 4 Notes](Theory/Class4/README.md)
-- [Go to Class 5 Notes](Theory/Class5/README.md)
-- [Go to Class 6 Notes](Theory/Class6/README.md)
-- [Go to Class 7 Notes](Theory/Class7/README.md)
-- [Go to Class 8 Part 1 Notes](Theory/Class8/Part1/README.md)
-- [Go to Class 8 Part 2 Notes](Theory/Class8/Part2/README.md)
-- [Go to Class 9 Part 1 Notes](Theory/Class9/Part1/README.md)
-- [Go to Class 9 Part 2 Notes](Theory/Class9/Part2/README.md)
-- [Go to Class 10 Notes](Theory/Class10/README.md)
+- [Class 1 — Docker Basics](Theory/Class1/README.md)
+- [Class 2 — Application Containerization](Theory/Class2/README.md)
+- [Class 3 — Docker Engine API](Theory/Class3/README.md)
+- [Class 4 — Multistage Docker Build](Theory/Class4/README.md)
+- [Class 5 — Docker Volumes & Bind Mounts](Theory/Class5/README.md)
+- [Class 6 — Docker Networking](Theory/Class6/README.md)
+- [Class 7 — Docker Advanced Commands](Theory/Class7/README.md)
+- [Class 8 Part 1 — Docker Compose](Theory/Class8/Part1/README.md)
+- [Class 8 Part 2 — Docker Compose](Theory/Class8/Part2/README.md)
+- [Class 9 Part 1 — Compose & Reverse Proxy](Theory/Class9/Part1/README.md)
+- [Class 9 Part 2 — Compose & Reverse Proxy](Theory/Class9/Part2/README.md)
+- [Class 10 — Portainer GUI Management](Theory/Class10/README.md)
+- [Class 11 — Introduction to Kubernetes](Theory/Class11/README.md)
+- [Class 12 — Kubernetes Review & Basics](Theory/Class12/README.md)
+- [Class 13 — Apache Web App Deployment](Theory/Class13/README.md)
+- [Class 14 — Git Basics](Theory/Class14/README.md)
 
 ---
 
@@ -77,9 +78,9 @@ Direct links:
 - [Lab 1 — VM vs Container Comparison](Lab/Lab-1/README.md)
 - [Lab 2 — Docker Installation & GitHub Pages](Lab/Lab2/README.md)
 - [Lab 3 — Docker Images, NGINX & Flask Deployment](Lab/Lab3/README.md)
-  - [Part 1 — NGINX & Image Customization](Lab/Lab3/P1/README.md)
-  - [Part 2 — Flask Container](Lab/Lab3/Flask-container/README.md)
 - [Lab 4 — Docker Essentials](Lab/Lab4/README.md)
 - [Lab 5 — Volumes, Env Vars, Monitoring, Networks](Lab/Lab5/README.md)
 - [Lab 6 — Docker Run vs Docker Compose](Lab/Lab6/README.md)
 - [Lab 7 — CI/CD using Jenkins, GitHub & Docker Hub](Lab/Lab7/README.md)
+- [Lab 9 — Automating Server Management with Ansible](Lab/Lab9/README.md)
+- [Lab 10 — Static Code Analysis with SonarQube](Lab/Lab10/README.md)
